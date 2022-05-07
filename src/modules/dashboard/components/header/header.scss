@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+
+  & .action-btn {
+    height: 50px;
+    border-radius: 12px;
+    background-color: #525ce3;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    transition-duration: 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    padding: 0 30px;
+
+    &:hover {
+      box-shadow: 0 20px 20px rgba(49, 59, 241, 0.5);
+    }
+
+    &:first-of-type {
+      margin-right: 20px;
+    }
+
+    &:last-of-type {
+      position: absolute;
+      right: 20px;
+    }
+  }
+}
+
